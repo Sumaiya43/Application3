@@ -11,7 +11,7 @@ public class ActivityLifeCycle extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_life_cycle);
 
-        Log.i("My position","I am on onCreate");
+
     }
 
 }

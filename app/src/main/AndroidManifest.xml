@@ -21,11 +21,12 @@
         <activity android:name=".IntentNewPage" />
         <activity android:name=".ImageChange" />
         <activity android:name=".ActivityLifeCycle" />
-        <activity android:name=".OptionMenuIntegrate"></activity>
-        <activity android:name=".CartoonImage">
+        <activity android:name=".OptionMenuIntegrate" />
+        <activity android:name=".CartoonImage"></activity>
+        <activity android:name=".BackPress">
 
         </activity>
-        <activity android:name=".BackPress">
+        <activity android:name=".Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
