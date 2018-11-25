@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AnimationTest">
+
+
+    <TextView
+        android:id="@+id/animation"
+        android:layout_width="137dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="124dp"
+        android:text="Animation"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:textColor="#000000"/>
+
+    <Button
+        android:id="@+id/zoomIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="163dp"
+        android:layout_marginStart="99dp"
+        android:text="ZoomIn"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/zoomOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/zoomIn"
+        android:layout_marginEnd="86dp"
+        android:text="ZoomOut"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/blink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/zoomIn"
+        android:layout_marginBottom="95dp"
+        android:text="Blink"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/fadeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/zoomOut"
+        android:layout_alignTop="@+id/blink"
+        android:text="FadeIn"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/fadeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:text="FadeOut"
+        android:textAllCaps="false" />
+</RelativeLayout>

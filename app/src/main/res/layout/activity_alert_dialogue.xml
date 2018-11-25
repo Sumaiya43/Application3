@@ -5,14 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activity">
+    tools:context=".AlertDialogueTest">
 
     <TextView
-        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:text="TextView" />
+        android:layout_marginTop="211dp"
+        android:text="Testing Alert Dialog"
+        android:textColor="#000"
+        android:textSize="40dp" />
+
 </RelativeLayout>

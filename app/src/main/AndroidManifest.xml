@@ -22,17 +22,20 @@
         <activity android:name=".ImageChange" />
         <activity android:name=".ActivityLifeCycle" />
         <activity android:name=".OptionMenuIntegrate" />
-        <activity android:name=".CartoonImage"></activity>
-        <activity android:name=".BackPress">
-
-        </activity>
-        <activity android:name=".Activity">
+        <activity android:name=".CartoonImage" />
+        <activity android:name=".BackPress" />
+        <activity android:name=".AlertDialogueTest" />
+        <activity android:name=".TimePickerTest" />
+        <activity android:name=".DatePickerTest" />
+        <activity android:name=".ListViewTest"></activity>
+        <activity android:name=".CustomListView">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".AnimationTest"></activity>
     </application>
 
 </manifest>
