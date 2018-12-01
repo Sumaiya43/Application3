@@ -27,15 +27,18 @@
         <activity android:name=".AlertDialogueTest" />
         <activity android:name=".TimePickerTest" />
         <activity android:name=".DatePickerTest" />
-        <activity android:name=".ListViewTest"></activity>
+        <activity android:name=".ListViewTest" />
         <activity android:name=".CustomListView">
+
+        </activity>
+        <activity android:name=".AnimationTest" />
+        <activity android:name=".NotificationTest">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AnimationTest"></activity>
     </application>
 
 </manifest>
